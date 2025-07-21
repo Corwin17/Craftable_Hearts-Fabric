@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "craftablehearts",
+	"version": "${version}",
+	"name": "Craftable Hearts",
+	"description": "This mod adds a new workbench called the Heart Forge where you can craft additional permanent hearts!",
+	"authors": [
+		"Corwin17"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/craftablehearts/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"amber.corwin17.craftablehearts.CraftableHearts"
+		],
+		"fabric-datagen": [
+			"amber.corwin17.craftablehearts.CraftableHeartsDataGenerator"
+		],
+		"client": [
+			"amber.corwin17.craftablehearts.CraftableHeartsClient"
+		]
+	},
+	"mixins": [
+		"craftablehearts.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
