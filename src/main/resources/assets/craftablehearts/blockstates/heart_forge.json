@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "craftablehearts:block/heart_forge",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "craftablehearts:block/heart_forge"
+    },
+    "facing=south": {
+      "model": "craftablehearts:block/heart_forge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "craftablehearts:block/heart_forge",
+      "y": 270
+    }
+  }
+}

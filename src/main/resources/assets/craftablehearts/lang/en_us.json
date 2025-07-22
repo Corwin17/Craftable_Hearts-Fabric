@@ -1,3 +1,4 @@
 {
-  "item.craftablehearts.heart": "Heart"
+  "item.craftablehearts.heart": "Heart",
+  "block.craftablehearts.heart_forge": "Heart Forge"
 }

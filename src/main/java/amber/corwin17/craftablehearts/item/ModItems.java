@@ -1,7 +1,9 @@
 package amber.corwin17.craftablehearts.item;
 
 import amber.corwin17.craftablehearts.CraftableHearts;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -19,5 +21,9 @@ public class ModItems {
     
     public static void registerModItems() {
         CraftableHearts.LOGGER.info("Registering Mod Items for "  + CraftableHearts.MOD_ID);
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
+            entries.add(HEART);
+        });
     }
 }

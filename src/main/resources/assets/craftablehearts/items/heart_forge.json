@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "craftablehearts:block/heart_forge"
+  }
+}
