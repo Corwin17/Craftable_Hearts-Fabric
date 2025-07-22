@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Corwin17/Craftable_Hearts-Fabric"
 	},
 	"license": "MIT",
 	"icon": "assets/craftablehearts/icon.png",
