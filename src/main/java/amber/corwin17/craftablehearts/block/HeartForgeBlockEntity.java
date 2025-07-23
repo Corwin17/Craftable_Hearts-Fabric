@@ -140,7 +140,6 @@ public class HeartForgeBlockEntity extends BlockEntity implements ImplementedInv
         } else {
             resetProgress();
         }
-        
     }
 
     private void resetProgress() {

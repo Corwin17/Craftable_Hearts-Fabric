@@ -12,7 +12,7 @@
 		"sources": "https://github.com/Corwin17/Craftable_Hearts-Fabric"
 	},
 	"license": "MIT",
-	"icon": "assets/craftablehearts/icon.png",
+	"icon": "assets/craftablehearts/textures/item/heart.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -25,9 +25,6 @@
 			"amber.corwin17.craftablehearts.CraftableHeartsClient"
 		]
 	},
-	"mixins": [
-		"craftablehearts.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.21.8",

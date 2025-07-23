@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": "minecraft:crafting_table",
+    "n": "minecraft:netherite_ingot",
+    "g": "minecraft:gold_ingot",
+    "i": "minecraft:heavy_weighted_pressure_plate"
+  },
+  "pattern": [
+    "gig",
+    "ncn",
+    "gng"
+  ],
+  "result": {
+    "count": 1,
+    "id": "craftablehearts:heart_forge"
+  }
+}
